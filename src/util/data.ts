@@ -1,8 +1,8 @@
 const images={
-    image1:require('../assets/img1.jpg'),
-    image2:require('../assets/img2.jpg'),
-    image3:require('../assets/img3.jpg'),
-    image4:require('../assets/img4.jpg'),
+    image1:require('../assets/img1.webp'),
+    image2:require('../assets/img2.webp'),
+    image3:require('../assets/img3.webp'),
+    image4:require('../assets/img4.webp'),
 }
 export const listData=[{
     id:1,
