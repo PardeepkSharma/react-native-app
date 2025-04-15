@@ -7,18 +7,19 @@ import BGColorComponent from '../components/BGColorComponent';
 import FoodListComponent from '../components/FoodListComponent';
 import UserComponent from '../components/UserComponent';
 import TodoComponent from '../components/TodoComponent';
+import { Link } from 'expo-router';
 
 
 const index = () => {
   return <View>
     {/* <TextComponent text="My name is pardeep" />
     <TextComponent text="i am a software developer" /> */}
-    {/* <CarComponent/> */}
-    {/* <WeatherComponent/> */}
-    {/* <BGColorComponent/> */}
-    {/* <FoodListComponent/> */}
+    <BGColorComponent/>
     {/* <UserComponent/> */}
-    <TodoComponent/>
+    {/* <TodoComponent/> */}
+    {/* <Link href="/Home">Home Screen</Link>
+    <Link href="/About">About Screen</Link>
+    <Link href="/Contact">Contact Screen</Link> */}
     </View>
 }
 
